@@ -8,7 +8,7 @@
             height: 100vh;
         }
 
-        /* 기본 스타일 (PC 화면 기준) */
+        /* PC 화면 */
 .container {
     width: 800px;
     margin: 0 auto;
@@ -16,7 +16,7 @@
     padding: 20px;
 }
 
-/* 1. 태블릿 화면 (화면 너비가 768px 이하일 때) */
+/* 1. 태블릿 화면 */
 @media screen and (max-width: 768px) {
     .container {
         width: 90%; /* 가로폭을 고정 크기 대신 백분율로 변경 */
@@ -24,7 +24,7 @@
     }
 }
 
-/* 2. 모바일 화면 (화면 너비가 480px 이하일 때) */
+/* 2. 모바일 화면  */
 @media screen and (max-width: 480px) {
     .container {
         width: 100%;
