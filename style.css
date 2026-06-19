@@ -10,15 +10,16 @@
 
         /* PC 화면 */
 .container {
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
 }
 
 /* 모바일 화면 */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .container {
-        width: 90%; 
+        width: 50%;
+        } 
     }
 }
 
