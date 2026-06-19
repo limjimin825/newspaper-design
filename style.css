@@ -12,23 +12,13 @@
 .container {
     width: 800px;
     margin: 0 auto;
-    background-color: lightblue;
     padding: 20px;
 }
 
-/* 1. 태블릿 화면 */
+/* 모바일 화면 */
 @media screen and (max-width: 768px) {
     .container {
-        width: 90%; /* 가로폭을 고정 크기 대신 백분율로 변경 */
-        background-color: lightgreen;
-    }
-}
-
-/* 2. 모바일 화면  */
-@media screen and (max-width: 480px) {
-    .container {
-        width: 100%;
-        background-color: lightcoral;
+        width: 90%; 
     }
 }
 
